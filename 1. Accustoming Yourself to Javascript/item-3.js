@@ -26,5 +26,4 @@ function xAndYUndefined(x, y) {
 	return {x, y};
 }
 
-
 console.log(xAndYUndefined());
