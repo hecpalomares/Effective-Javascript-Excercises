@@ -2,7 +2,8 @@
 //	Variables declarations are implicitly hoisted to the top of their enclosing functions
 //	Redeclarations are treated as a single variable
 //	Manually hoisting local variable declarations to avoid confusion
-	Javascript is lexical scoped
+
+//	Javascript is lexical scoped
 function variablesNotHoisted(header, body, footer) {
 	for(var i = 0, n = header.length; i < n; i++) {
 		header[i] = header[i].trim();
