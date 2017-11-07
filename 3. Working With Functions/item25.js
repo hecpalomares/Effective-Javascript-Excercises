@@ -21,7 +21,7 @@ console.log(buffer.concat());
 
 buffer.empty();
 
-//	Function objets with bind method that takes receiver object
+//	Function objects with bind method that takes appropiate receiver object
 //	produces wrapper function that calls the original function as a method of the receiver
 let sourceBind = ["333", "-", "9876", "-", "5432"];
 sourceBind.forEach(buffer.add.bind(buffer));
