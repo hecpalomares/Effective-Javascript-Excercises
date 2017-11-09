@@ -1,6 +1,6 @@
 //	prototype: standard using 'new' | Car.prototype
 //	getPrototypeOf(obj): ES5 standard function | Object.getPrototypeOf(car)
-//	__proto: nonstandard function prior ES5 | obj.__proto__
+//	__proto__: nonstandard function prior ES5 | obj.__proto__
 //	class is a design pattern: constructor function + associated prototype
 
 // User constructor function
@@ -19,7 +19,7 @@ User.prototype.checkPassword = function(password) {
 	return this.passwordHash;
 }
 
-var u = new User("hectorp", "2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824");
+var u = new User("hectorp", "5b9e29e1b161e5c1fa7425e73043362938b9824");
 
 console.log(u.toString());
 console.log(u.checkPassword());
