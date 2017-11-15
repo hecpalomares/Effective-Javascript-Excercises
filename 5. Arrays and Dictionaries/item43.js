@@ -1,5 +1,5 @@
 //	Build lightweight Dictionaries from Direct Instances of the Object
-//	Protected agaisnt prototype pollution for...in loops
+//	Protected against prototype pollution for...in loops
 let dict = {};
 
 dict.alice = 25;
