@@ -22,4 +22,3 @@ let alert3 = new Alert(app, message, {
 	bgColor: "white", textColor: "black",
 	icon: "error", modal: true
 });
-
