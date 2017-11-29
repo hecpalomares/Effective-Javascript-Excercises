@@ -1,6 +1,6 @@
 //	Item 56: Avoid Unnecessary State
-//	Stateless API: Provides functons or methods whose behaivor depends only on their inputs.
 //	Stateful API: Produce different results based on their methods.
+//	Stateless API: Provides functions or methods whose behaivor depends only on their inputs.
 
 //	Example of a stateful canvas
 let c = canvas.getContext("2d");
