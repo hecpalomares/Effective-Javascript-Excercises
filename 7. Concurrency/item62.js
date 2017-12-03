@@ -20,7 +20,7 @@ function downloadFiles(url, file) {
 	downloadSync("a.txt", function(a) {
 		downloadSync("b.txt", function(b) {
 			downloadSync("c.txt", function(c) {
-				//	Some code
+				console.log("Contents: " + a + b + c);
 			});
 		});
 	});
